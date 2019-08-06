@@ -4,7 +4,7 @@ echo "Disabling ssl for git"
 git config --global http.sslVerify false
 
 echo "Cloning"
-git clone https://github.com/mukesh-ranjan/LXC-Kube-Cluster
+git clone https://github.com/mukesh-ranjan/Vagrant-Kubernetes
 
 echo "Initializing LXD Please enter your choice"
 lxd init
